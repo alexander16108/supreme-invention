@@ -1,4 +1,5 @@
-# milestone-project/ phase-one 
+
+# milestone-project/ phase-two 
 
 this is a project to learn the basics of how to use figma and grids
 
@@ -6,7 +7,7 @@ this is a project to learn the basics of how to use figma and grids
  
  created a linter to check for error in the HTML and CSS codes
  
- created a file that should be ignored by Github
+
  
  Additional description about the project and its features.
  
