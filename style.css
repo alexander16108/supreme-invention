@@ -15,37 +15,32 @@ html {
 }
 
 section {
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 0.4em;
 }
 
-.multi-story-1,
-.multi-story-2,
-.multi-story-3,
-.multi-story-4,
-h1 {
-  padding: 20px 0 20px 0;
-}
-
-body {
-  padding-left: 7px;
+ul{
+  margin: 0%;
+  padding-inline-start: 0%;
 }
 
 /* header */
 
 h1 {
+  
   font-weight: 500;
   font-size: 40px;
   color: #9490ff;
-}
-
-.border {
-  width: 90%;
-  color: #646369;
-  margin: 0%;
-  position: absolute;
+  padding: 20px 0 20px 0;
 }
 
 /* section general */
+.multi-post ul {
+  display: grid;
+  grid-row-gap: 2em;
+}
 
 h2 {
   color: #fff;
@@ -74,7 +69,8 @@ p {
   color: #fff;
 }
 
-ul {
+.list ul {
+  font-family: 'Inter', sans-serif;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-content: center;
@@ -82,6 +78,8 @@ ul {
 }
 
 ul li {
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
   list-style: none;
 }
 
@@ -91,7 +89,7 @@ ul li {
 
 /* button */
 
-input[type=button] {
+button {
   color: #fff;
   font-size: 12px;
   padding: 12px;
