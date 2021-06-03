@@ -1,3 +1,4 @@
+
 # milestone-project/ phase-two 
 
 this is a project to learn the basics of how to use figma and grids
@@ -41,3 +42,4 @@ linkedin: @alexandermayowaOdufuye
 
 ### Acknowledgments
 microverse/readme-template
+

@@ -1,0 +1,99 @@
+/* import links */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Roboto:wght@300&display=swap');
+
+/* general */
+
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  background: #191765;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 0.4em;
+}
+
+ul {
+  margin: 0%;
+  padding-inline-start: 0%;
+}
+
+/* header */
+
+h1 {
+  font-weight: 500;
+  font-size: 40px;
+  color: #9490ff;
+  padding: 20px 0 20px 0;
+}
+
+/* section general */
+.multi-post ul {
+  display: grid;
+  grid-row-gap: 2em;
+}
+
+h2 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+img {
+  height: 236px;
+  width: 290px;
+}
+
+p {
+  color: #dcdce8;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: 'Inter', sans-serif;
+}
+
+.list {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.list ul {
+  font-family: 'Inter', sans-serif;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  padding: 10px 0 10px 0;
+}
+
+ul li {
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  list-style: none;
+}
+
+.ruby {
+  justify-self: center;
+}
+
+/* button */
+
+button {
+  color: #fff;
+  font-size: 12px;
+  padding: 12px;
+  border: none;
+  height: 48px;
+  width: 89px;
+  background-color: rgba(125, 115, 252, 1);
+}
