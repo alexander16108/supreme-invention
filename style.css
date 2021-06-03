@@ -21,7 +21,7 @@ section {
   padding-left: 0.4em;
 }
 
-ul{
+ul {
   margin: 0%;
   padding-inline-start: 0%;
 }
@@ -29,7 +29,6 @@ ul{
 /* header */
 
 h1 {
-  
   font-weight: 500;
   font-size: 40px;
   color: #9490ff;
