@@ -6,7 +6,7 @@
 /* general */
 
 * {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
 
@@ -96,7 +96,7 @@ ul li {
 .multi-story-5 h2 {
   font: 500;
   font-family: "Roboto", sans-serif;
-  color: rgba(147, 144, 255, 1);
+color: rgba(147, 144, 255, 1);
   line-height: 44px;
 }
 
@@ -107,12 +107,12 @@ ul li {
   padding-bottom: 1em;
 }
 
-input[type= text] {
+input[type=text] {
   padding: 1em;
 }
 
-input[type= text],
-input[type= email] {
+input[type=text],
+input[type=email] {
   font: 400;
   font-family: "Inter", sans-serif;
   width: 19em;
@@ -123,7 +123,7 @@ input[type= email] {
 
 /* input[email] */
 
-input[type= email] {
+input[type=email] {
   padding: 1em;
   color: rgba(25, 23, 101, 1);
 }
