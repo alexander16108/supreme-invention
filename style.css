@@ -6,7 +6,7 @@
 /* general */
 
 * {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   box-sizing: border-box;
 }
 
@@ -30,7 +30,7 @@ p,
 .list,
 .list ul,
 ul li {
-  font-family: 'Inter';
+  font-family: "Inter", sans-serif;
 }
 
 /* header */
@@ -94,10 +94,10 @@ ul li {
 }
 
 .multi-story-5 h2 {
+  font: 500;
+  font-family: "Roboto", sans-serif;
   color: rgba(147, 144, 255, 1);
   line-height: 44px;
-  font: 500;
-  font-family: 'Roboto';
 }
 
 /* input[name] */
@@ -107,23 +107,25 @@ ul li {
   padding-bottom: 1em;
 }
 
-input[type=text],
-input[type=email] {
+input[type= text] {
+  padding: 1em;
+}
+
+input[type= text],
+input[type= email] {
   font: 400;
-  font-family: 'Inter';
+  font-family: "Inter", sans-serif;
   width: 19em;
   height: 3em;
   font-size: 15px;
-  line-height: 24px
+  line-height: 24px;
 }
 
 /* input[email] */
 
-input[type=email] {
-  font: 400;
-  font-family: 'Inter';
-  font-size: 15px;
-  line-height: 24px
+input[type= email] {
+  padding: 1em;
+  color: rgba(25, 23, 101, 1);
 }
 
 /* button */
@@ -139,6 +141,7 @@ button {
 }
 
 form button {
-padding: 1em;
+  padding: 1em;
 }
+
 /* footer */
