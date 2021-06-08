@@ -94,9 +94,9 @@ ul li {
 }
 
 .multi-story-5 h2 {
-  font: 500;
+  font-weight: 500;
   font-family: "Roboto", sans-serif;
-color: rgba(147, 144, 255, 1);
+  color: rgba(147, 144, 255, 1);
   line-height: 44px;
 }
 
@@ -113,7 +113,7 @@ input[type=text] {
 
 input[type=text],
 input[type=email] {
-  font: 400;
+  font-weight: 400;
   font-family: "Inter", sans-serif;
   width: 19em;
   height: 3em;
