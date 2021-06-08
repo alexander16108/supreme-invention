@@ -1,45 +1,43 @@
 
-# milestone-project/ phase-two 
+# My Portfolio Destop Version
+This project is a Microverse task to build personal portfolio, to parse a Figma design, use Flexbox, CSS Grid and float to place elements in the page, media-queries to adjust the webpage to different screen size. It covers html and css and applying linters on each of them.
 
-this is a project to learn the basics of how to use figma and grids
 
- added html and css file to Github
- 
- created a linter to check for error in the HTML and CSS codes
- 
-
- 
- Additional description about the project and its features.
- 
+Additional description about the project and its features.
 
 # Built With
+Html + Css
 
-### HTML
-### CSS
-### GIT
-### FIGMA
+# Live Demo Of The Project
+No live demo.
 
-# Major languages
+# Usage
+This is used for learning purposes. Feel free to collaborate.
 
-## HTML
-## CSS
+# Run tests
+To locally run tests using html and css linters.
 
-# Author
+Use:
 
-##👤 Alexander Odufuye
+For HTML:
 
-GitHub: @alexander1608
+npx hint .
+For CSS:
 
-twitter: @alexander
+npx stylelint "**/*.{css,scss}" 
+# Deployment
+Make a pull request if your want to contribute. Thanks.
 
-linkedin: @alexandermayowaOdufuye
+#Authors
+👤 alexander
+👤 Moise Rushanika
+
+GitHub: @alexandder16108   
+GitHub: @moise10r
+
+# 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
 
 # Show your support
-## Give a ⭐️ if you like this project!
-
-## 🤝 Contributing
-### Contributions, issues, and feature requests are welcome!
-
-### Acknowledgments
-microverse/readme-template
+Please. Give a ⭐️ if you like this project!
 
