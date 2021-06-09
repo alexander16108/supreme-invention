@@ -42,7 +42,7 @@ ul li {
 .multi-story-3,
 .multi-story-4,
 .multi-story-5,
-.multi-story-5>p {
+.multi-story-5 > p {
   text-align: center;
 }
 
