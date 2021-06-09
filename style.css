@@ -85,7 +85,7 @@ h2 {
 
 .list {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 20px;
   color: #fff;
 }
@@ -124,7 +124,7 @@ input[type="text"],
 input[type="email"] {
   font-weight: 400;
   font-family: "Inter", sans-serif;
-  width: 19.588em;
+  width: 19.488em;
   height: 3em;
   font-size: 15px;
   line-height: 24px;
