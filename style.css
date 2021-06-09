@@ -48,6 +48,7 @@ ul li {
 .contact-form p {
   text-align: center;
 }
+
 /* header */
 
 h1 {
@@ -156,7 +157,7 @@ form button {
 }
 
 button:enabled {
-background-color: rgba(125, 115, 252, 1);
+  background-color: rgba(125, 115, 252, 1);
 }
 
 button:hover {
