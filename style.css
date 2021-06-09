@@ -123,14 +123,10 @@ input[type="text"],
 input[type="email"] {
   font-weight: 400;
   font-family: "Inter", sans-serif;
-  width: 19.4em;
+  width: 19.5;
   height: 3em;
   font-size: 15px;
   line-height: 24px;
-}
-
-textarea {
-  width: 19.7em;
 }
 
 /* input[email] */
