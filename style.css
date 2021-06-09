@@ -40,7 +40,9 @@ ul li {
 .multi-story-1,
 .multi-story-2,
 .multi-story-3,
-.multi-story-4 {
+.multi-story-4,
+.multi-story-5,
+.multi-story-5 p {
   text-align: center;
 }
 
@@ -99,10 +101,6 @@ ul li {
 
 .ruby {
   justify-self: center;
-}
-
-.multi-story-5 {
-  text-align: center;
 }
 
 .multi-story-5 h2 {
