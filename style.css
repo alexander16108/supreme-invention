@@ -23,7 +23,7 @@ section {
 
 ul {
   margin: 0%;
-  padding-inline-start: 0.5em;
+padding-inline-start: 0.5em;
 }
 
 p,
@@ -42,7 +42,7 @@ ul li {
 .multi-story-3,
 .multi-story-4,
 .multi-story-5,
-.multi-story-5 > p {
+.multi-story-5 p {
   text-align: center;
 }
 
@@ -155,3 +155,25 @@ form button {
 }
 
 /* footer */
+
+footer {
+  padding: 20px;
+  width:100%;
+  border-top: 1px solid #3a3837;
+}
+
+footer .icons {
+  width: 100%;
+}
+
+footer .icons ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .icons ul li {
+  padding: 0 16px;
+}
