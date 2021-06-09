@@ -1,9 +1,8 @@
-
 # My Portfolio Mobile Version/ Collaborative_project
 This project is a Microverse task to build personal portfolio, to parse a Figma design, use Flexbox, CSS Grid and float to place elements in the page, media-queries to adjust the webpage to different screen size. It covers html and css and applying linters on each of them.
 
 
-Additional description about the project and its features.
+desription about the project and its features.
 
 # Built With
 Html + Css
@@ -35,9 +34,13 @@ Make a pull request if your want to contribute. Thanks.
 GitHub: @alexandder16108   
 GitHub: @moise10r
 
+
 # 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
 # Show your support
 Please. Give a ⭐️ if you like this project!
 
+
+# Show your support
+Please. Give a ⭐️ if you like this project!
