@@ -1,46 +1,47 @@
-# My Portfolio Mobile Version/ Collaborative_project
-This project is a Microverse task to build personal portfolio, to parse a Figma design, use Flexbox, CSS Grid and float to place elements in the page, media-queries to adjust the webpage to different screen size. It covers html and css and applying linters on each of them.
+ # :point_right:  My Portfolio Mobile Version/ Collaborative_project #
+ > - This project is a Microverse task to build personal portfolio, to parse a Figma design, use Flexbox, CSS Grid and float to place elements in the page, media-queries to adjust the webpage to different screen size. It covers html and css and applying linters on each of them.
 
 
-desription about the project and its features.
+## - Additional description about the project and its features. ##
 
-# Built With
-Html + Css
 
-# Live Demo Of The Project
-No live demo.
+ # Built With #
+>  Html + Css
 
-# Usage
-This is used for learning purposes. Feel free to collaborate.
 
-# Run tests
+# Live Demo Of The Project #
+ > https://alexander16108.github.io/supreme-invention/
+
+
+
+ # Run tests #
 To locally run tests using html and css linters.
 
 Use:
 
-For HTML:
+### For HTML: ###
+> - npx hint .
 
-npx hint .
-For CSS:
+### For CSS: ###
+> - npx stylelint "**/*.{css,scss}" 
 
-npx stylelint "**/*.{css,scss}" 
-# Deployment
-Make a pull request if your want to contribute. Thanks.
+# Deployment #
+- Make a pull request if your want to contribute. Thanks.
 
-#Authors
-👤 alexander
-👤 Moise Rushanika
+# Authors #
+> - 👤 alexander
 
-GitHub: @alexandder16108   
-GitHub: @moise10r
+# contributor #
+> - 👤 Moise Rushanika
 
 
-# 🤝 Contributing
+ # social media
+
+>  GitHub: @alexandder16108   
+ >>  GitHub: @moise10r
+
+ >  Linkedin: @alexandermayowa     
+ >>   Linkedin: @moise62613
+
+# 🤝 Contributing #
 Contributions, issues, and feature requests are welcome!
-
-# Show your support
-Please. Give a ⭐️ if you like this project!
-
-
-# Show your support
-Please. Give a ⭐️ if you like this project!
