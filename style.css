@@ -78,8 +78,7 @@ h2 {
 .text {
   text-align: left;
   color: #dcdce8;
-  font-weight: 400;
-  font-size: 12px;
+  font-size: 20px;
   line-height: 28px;
 }
 
@@ -124,10 +123,14 @@ input[type="text"],
 input[type="email"] {
   font-weight: 400;
   font-family: "Inter", sans-serif;
-  width: 19.488em;
+  width: 19.4em;
   height: 3em;
   font-size: 15px;
   line-height: 24px;
+}
+
+textarea {
+  width: 19.4em;
 }
 
 /* input[email] */
