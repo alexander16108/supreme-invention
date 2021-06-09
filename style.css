@@ -177,3 +177,7 @@ footer .icons ul {
 footer .icons ul li {
   padding: 0 16px;
 }
+
+a {
+  text-decoration: none;
+}
