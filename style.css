@@ -34,18 +34,20 @@ ul li {
 }
 
 .image {
-  text-align: center;
+  text-align: left;
 }
 
 .multi-story-1,
 .multi-story-2,
 .multi-story-3,
-.multi-story-4,
+.multi-story-4 {
+  text-align: left;
+}
+
 .multi-story-5,
 .contact-form p {
   text-align: center;
 }
-
 /* header */
 
 h1 {
@@ -104,7 +106,7 @@ ul li {
 }
 
 .multi-story-5 h2 {
-  font-weight: 500;
+  font-weight: 700;
   font-family: "Roboto", sans-serif;
   color: rgba(147, 144, 255, 1);
   line-height: 44px;
@@ -117,15 +119,11 @@ ul li {
   padding-bottom: 1em;
 }
 
-input[type=text] {
-  padding: 1em;
-}
-
-input[type=text],
-input[type=email] {
+input[type="text"],
+input[type="email"] {
   font-weight: 400;
   font-family: "Inter", sans-serif;
-  width: 19em;
+  width: 19.4em;
   height: 3em;
   font-size: 15px;
   line-height: 24px;
@@ -133,8 +131,7 @@ input[type=email] {
 
 /* input[email] */
 
-input[type=email] {
-  padding: 1em;
+input[type="email"]::placeholder {
   color: rgba(25, 23, 101, 1);
 }
 
@@ -154,11 +151,33 @@ form button {
   padding: 1em;
 }
 
+.button {
+  padding: 15px;
+}
+
+button:enabled {
+background-color: rgba(125, 115, 252, 1);
+}
+
+button:hover {
+  background-color: rgba(125, 115, 252, 1);
+  cursor: pointer;
+  box-shadow: 0px 8px 16px 0px rgba(125, 115, 252, 0.48);
+  ;
+}
+
+button:active {
+  background-color: rgba(94, 66, 215, 1);
+}
+
+button:disabled {
+  background-color: rgba(42, 43, 51, 1);
+}
+
 /* footer */
 
 footer {
   padding: 20px;
-  width: 100%;
   border-top: 1px solid #3a3837;
 }
 
@@ -180,4 +199,6 @@ footer .icons ul li {
 
 a {
   text-decoration: none;
+  color: #dcdce8;
+  text-align: center;
 }
