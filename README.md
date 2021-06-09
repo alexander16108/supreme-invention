@@ -12,6 +12,19 @@
  > https://alexander16108.github.io/supreme-invention/
 
 
+# Getting Started #
+
+To get a local copy up and running follow these simple example steps.
+
+# Setup #
+-  setup your github to get started this project and copy the git clone to clone a copy on this repository locally 
+ 
+# Install #
+- install a version control on your device 
+- setup your vs code and command prompt to run a proper workflow
+
+# Usage #
+- for learning purpose only
 
  # Run tests #
 To locally run tests using html and css linters.
