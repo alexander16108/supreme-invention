@@ -23,7 +23,7 @@ section {
 
 ul {
   margin: 0%;
-  padding-inline-start: 1em;
+padding-inline-start: 0.5em;
 }
 
 p,
@@ -31,6 +31,17 @@ p,
 .list ul,
 ul li {
   font-family: "Inter", sans-serif;
+}
+
+.image {
+  text-align: center;
+}
+
+.multi-story-1,
+.multi-story-2,
+.multi-story-3,
+.multi-story-4 {
+  text-align: center;
 }
 
 /* header */
@@ -60,6 +71,7 @@ h2 {
 }
 
 p {
+  text-align: left;
   color: #dcdce8;
   font-weight: 400;
   font-size: 20px;
