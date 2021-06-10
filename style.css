@@ -1,12 +1,12 @@
 /* import links */
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Roboto:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Roboto:wght@300&display=swap');
 
 /* general */
 
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
 }
 
@@ -18,35 +18,12 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 0.4em 5em 0;
+  padding-left: 0.4em;
 }
 
 ul {
   margin: 0%;
-  padding-inline-start: 0.5em;
-}
-
-p,
-.list,
-.list ul,
-ul li {
-  font-family: "Inter", sans-serif;
-}
-
-.image {
-  text-align: left;
-}
-
-.multi-story-1,
-.multi-story-2,
-.multi-story-3,
-.multi-story-4 {
-  text-align: left;
-}
-
-.multi-story-5,
-.contact-form p {
-  text-align: center;
+  padding-inline-start: 0%;
 }
 
 /* header */
@@ -70,27 +47,29 @@ h2 {
   font-weight: 500;
 }
 
-.blank {
+img {
   height: 236px;
   width: 290px;
 }
 
-.text {
-  text-align: left;
+p {
   color: #dcdce8;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
+  font-family: 'Inter', sans-serif;
 }
 
 .list {
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 12px;
   line-height: 20px;
   color: #fff;
 }
 
 .list ul {
+  font-family: 'Inter', sans-serif;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-content: center;
@@ -99,41 +78,12 @@ h2 {
 
 ul li {
   font-weight: 600;
+  font-family: 'Inter', sans-serif;
   list-style: none;
 }
 
 .ruby {
   justify-self: center;
-}
-
-.multi-story-5 h2 {
-  font-weight: 700;
-  font-family: "Roboto", sans-serif;
-  color: rgba(147, 144, 255, 1);
-  line-height: 44px;
-}
-
-/* input[name] */
-
-.name,
-.email {
-  padding-bottom: 1em;
-}
-
-input[type="text"],
-input[type="email"] {
-  font-weight: 400;
-  font-family: "Inter", sans-serif;
-  width: 19.5em;
-  height: 3em;
-  font-size: 15px;
-  line-height: 24px;
-}
-
-/* input[email] */
-
-input[type="email"]::placeholder {
-  color: rgba(25, 23, 101, 1);
 }
 
 /* button */
@@ -146,59 +96,4 @@ button {
   height: 48px;
   width: 89px;
   background-color: rgba(125, 115, 252, 1);
-}
-
-form button {
-  padding: 1em;
-}
-
-.button {
-  padding: 15px;
-}
-
-button:enabled {
-  background-color: rgba(125, 115, 252, 1);
-}
-
-button:hover {
-  background-color: rgba(125, 115, 252, 1);
-  cursor: pointer;
-  box-shadow: 0 8px 16px 0 rgba(125, 115, 252, 0.48);
-}
-
-button:active {
-  background-color: rgba(94, 66, 215, 1);
-}
-
-button:disabled {
-  background-color: rgba(42, 43, 51, 1);
-}
-
-/* footer */
-
-footer {
-  padding: 20px;
-  border-top: 1px solid #3a3837;
-}
-
-footer .icons {
-  width: 100%;
-}
-
-footer .icons ul {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-footer .icons ul li {
-  padding: 0 16px;
-}
-
-a {
-  text-decoration: none;
-  color: #dcdce8;
-  text-align: center;
 }
